@@ -19,7 +19,7 @@ st.title("TRADUCTOR.")
 st.subheader("Escucho lo que quieres traducir.")
 
 
-image = Image.open('OIG7.jpg')
+image = Image.open('img100.jpg')
 
 st.image(image,width=300)
 with st.sidebar:
@@ -93,6 +93,8 @@ if result:
         input_language = "zh-cn"
     elif in_lang == "Japonés":
         input_language = "ja"
+    elif in_lang == "Portugués"
+        input_language = "pt-BR"
     
     out_lang = st.selectbox(
         "Selecciona el lenguaje de salida",
